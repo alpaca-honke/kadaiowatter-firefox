@@ -5,7 +5,7 @@ const defaultOptions = {
 function saveOptions(){
     const backgroundOwatta = document.getElementById("backgroundOwatta").checked;
     console.log(backgroundOwatta);
-    chrome.storage.local.set({
+    browser.storage.local.set({
         backgroundOwatta: backgroundOwatta
     }, function(){
         console.log("設定を保存しました");
@@ -13,7 +13,7 @@ function saveOptions(){
 }
 
 function loadOptions(){
-    chrome.storage.local.get(defaultOptions, function(items){
+    browser.storage.local.get(defaultOptions, function(items){
         document.getElementById("backgroundOwatta").checked = items.backgroundOwatta;
     });
 }

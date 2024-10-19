@@ -7,7 +7,7 @@ if (location.href ===        "https://scombz.shibaura-it.ac.jp/lms/course/report
     location.href.startsWith("https://scombz.shibaura-it.ac.jp/lms/course/examination/take?complete")
     ) {
         console.log("KADAIOWATTER");
-    chrome.storage.local.get(defaultOptions, function (items) {
+    browser.storage.local.get(defaultOptions, function (items) {
         const backgroundOwatta = items.backgroundOwatta;
 
         const contentsComplete = document.querySelector(".contents-detail.contents-complete");
@@ -17,7 +17,7 @@ if (location.href ===        "https://scombz.shibaura-it.ac.jp/lms/course/report
                 document.head.insertAdjacentHTML("beforeEnd", `
             <style>
             #pageMain{
-                background-image: url(${chrome.runtime.getURL("img/kadaiowatta.png")}) !important;
+                background-image: url(${browser.runtime.getURL("img/kadaiowatta.png")}) !important;
                 background-size: cover;
                 background-blend-mode: unset !important;
                 background-attachment: fixed;
@@ -42,7 +42,7 @@ if (location.href ===        "https://scombz.shibaura-it.ac.jp/lms/course/report
             } else {
                 //通常オワッター
                 const elementKadaiOwatta = document.createElement("img");
-                elementKadaiOwatta.src = `chrome-extension://${chrome.runtime.id}/img/kadaiowatta.png`;
+                elementKadaiOwatta.src = `browser-extension://${browser.runtime.id}/img/kadaiowatta.png`;
                 elementKadaiOwatta.classList = "kadaiowatta";
                 const kadaiOwattaContainer = document.createElement("div");
                 kadaiOwattaContainer.classList = "kadaiowatta-container";

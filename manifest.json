@@ -29,5 +29,13 @@
     "web_accessible_resources": [{
         "resources": ["img/*.png", "img/*.jpg", "img/*.svg"],
         "matches": ["<all_urls>"]
-    }]
+    }],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "kadaiowatter-firefox@alpaca-honke.github.io"
+        },
+        "gecko_android": {
+            "id": "kadaiowatter-firefox@alpaca-honke.github.io"
+        }
+    }
 }
