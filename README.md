@@ -1,5 +1,5 @@
-![Version for Firefox](https://img.shields.io/amo/v/kadaiowatter-firefox?color=yellow&style=flat-square)
-![Firefox Users](https://img.shields.io/amo/users/kadaiowatter-firefox?color=yellow&style=flat-square)
+![Version for Firefox](https://img.shields.io/amo/v/kadaiowatter-fx?color=yellow&style=flat-square)
+![Firefox Users](https://img.shields.io/amo/users/kadaiowatter-fx?color=yellow&style=flat-square)
 
 # kadaiowatter-firefox
 ScombZで課題を提出したときに「課題おわった」の画像を表示するFirefox拡張機能
@@ -10,7 +10,7 @@ Chrome版は原作をご利用ください: https://github.com/saka-naname/kadai
 ## 導入方法
 ### Mozilla Addonsからのインストール
 以下から「インストール」ボタンをクリックしてインストールします。
-Mozilla Addons: https://addons.mozilla.org/ja/firefox/addon/kadaiowatter-firefox
+Mozilla Addons: https://addons.mozilla.org/ja/firefox/addon/kadaiowatter-fx
 
 
 ### GitHub Releaseからのインストール
