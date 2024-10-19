@@ -32,10 +32,10 @@
     }],
     "browser_specific_settings": {
         "gecko": {
-            "id": "kadaiowatter-firefox@alpaca-honke.github.io"
+            "id": "{B29985BE-8E2C-11EF-BF8B-FB799034574D}"
         },
         "gecko_android": {
-            "id": "kadaiowatter-firefox@alpaca-honke.github.io"
+            "id": "{B29985BE-8E2C-11EF-BF8B-FB799034574D}"
         }
     }
 }
