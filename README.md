@@ -10,9 +10,7 @@ Chrome版は原作をご利用ください: https://github.com/saka-naname/kadai
 ## 導入方法
 ### Mozilla Addonsからのインストール
 以下から「インストール」ボタンをクリックしてインストールします。
-WebStore: https://chrome.google.com/webstore/detail/kadaiowatter/ogpmacookbmdacllljbakgabghlgajla
-[![Chrome 版のリンク](./chrome.png)](https://chrome.google.com/webstore/detail/kadaiowatter/ogpmacookbmdacllljbakgabghlgajla)
-
+Mozilla Addons: https://addons.mozilla.org/ja/firefox/addon/kadaiowatter-firefox
 
 
 ### GitHub Releaseからのインストール
